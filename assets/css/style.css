@@ -1,0 +1,278 @@
+@import url(../fonts/fonts.css);
+@import url(../css/scrollbar.css);
+
+:root {
+  --light-color: #fff;
+  --primary-color: #728bad;
+  --secondary-color: #ffc099;
+  --social-color: #a76bf2;
+}
+
+body {
+  font-family: "Montserrat-bold";
+  color: var(--light-color);
+  background-color: #222021;
+}
+.wrapper {
+  background-image: url(../img/other/background.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  height: 1020px;
+}
+.wrapper-about {
+  margin-bottom: 205px;
+}
+.wood_prod_header {
+  position: relative;
+}
+.about_us {
+  background: #1e0c06;
+  border-radius: 0px 42px 42px 0px;
+  max-width: 1325px;
+  width: 80%;
+}
+.wood_products {
+  background: #1e0c06;
+  border-radius: 42px 0 0 42px;
+  max-width: 1325px;
+  width: 80%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 43px 115px 57px 50px;
+}
+.wood_products p {
+  color: #ffdbbb;
+  font-family: "Inter-regular";
+  font-size: 30px;
+}
+.wood_products img {
+  width: 80%;
+}
+.contact_wrapper {
+  margin-top: 222px;
+}
+.contact_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.contact_container span {
+  font-family: "Inter-medium";
+  font-size: 30px;
+}
+.contact_wrapper iframe {
+  width: 100%;
+}
+/* TODO: 404 start */
+.error_page {
+  font-family: "Montserrat-medium";
+}
+.error_page h1 {
+  font-size: 500px;
+}
+.error_page h3 {
+  font-size: 90px;
+}
+.error_page p {
+  font-family: "Inter-regular";
+  font-size: 30px;
+  color: #ffdbbb;
+}
+/* TODO: 404 end */
+.navbar-background {
+  background: #664033;
+  border-radius: 0px 0px 50px 50px;
+  box-shadow: 0px -8px 52px rgba(238, 238, 238, 0.17);
+}
+.nav-link {
+  color: var(--light-color) !important;
+  font-size: 20px;
+}
+.navbar-brand {
+  color: var(--light-color) !important;
+  font-size: 25px;
+}
+.navbar-brand > img {
+  width: 197px;
+  height: 84px;
+}
+.navbar-toggler {
+  border: none;
+}
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none;
+  box-shadow: none;
+}
+.btn-start {
+  background: var(--primary-color);
+  color: var(--light-color);
+  border-radius: 50px;
+  outline: none;
+  border: none;
+  width: 261px;
+  height: 65px;
+  font-size: 25px;
+}
+.btn-start:hover {
+  opacity: 0.9;
+}
+.btn-start:active {
+  transform: scale(1.02);
+}
+.btn-pricing {
+  color: #fff;
+  width: 141px;
+  height: 46px;
+  background: #a76bf2;
+  border: 1px solid var(--light-color);
+  border-radius: 50px;
+}
+
+.any_questions_wrapper {
+  font-family: "Inter-medium";
+}
+.any_questions_wrapper h2 {
+  font-size: 90px;
+  text-align: right;
+}
+
+.any_questions_wrapper p {
+  font-size: 30px;
+  text-align: right;
+}
+.any_questions_wrapper input {
+  border: 4px solid var(--primary-color);
+  border-radius: 42px;
+  height: 77px;
+  font-size: 30px;
+}
+.any_questions_wrapper .img {
+  z-index: -1;
+}
+.btn-send {
+  width: 216px;
+  height: 58px;
+  background: var(--primary-color);
+  color: var(--light-color);
+  border-radius: 50px;
+  outline: none;
+  border: none;
+  font-family: "Inter-bold";
+  font-size: 30px;
+}
+.any_questions_wrapper input::placeholder {
+  color: rgba(217, 217, 217, 0.51);
+  font-size: 30px;
+}
+
+.footer_wrapper {
+  font-family: "Inter-medium";
+  background: #222021;
+  box-shadow: 0px -6px 52px rgba(245, 245, 245, 0.17);
+}
+.footer_wrapper span {
+  font-size: 30px;
+}
+.footer_wrapper a {
+  font-size: 20px;
+  text-decoration: none;
+  color: var(--light-color);
+}
+
+.bi-check,
+.bi-x {
+  color: var(--secondary-color);
+  font-size: 20px;
+}
+
+.advantages_working img {
+  width: 100%;
+}
+.advantages_working p {
+  font-family: "Inter-medium";
+  font-size: 30px;
+}
+.btn-advantages {
+  padding: 5px 70px;
+  background: var(--primary-color);
+  color: var(--light-color);
+  border-radius: 50px;
+  outline: none;
+  border: none;
+  font-family: "Inter-bold";
+  font-size: 30px;
+}
+
+.about_us {
+  padding: 61px 70px 31px 163px;
+}
+.about_us img {
+  width: 100%;
+}
+.about_us p {
+  font-family: "Inter-regular";
+  font-size: 30px;
+}
+.about_us p span {
+  font-family: "Inter-bold";
+  font-size: 30px;
+}
+/* ! */
+.price_wrapper h2,
+.advantages_working h2,
+.contact_wrapper h2,
+.wood_products h1,
+.about_us h1,
+.ourwork_wrapper h2,
+.the_wood h2 {
+  font-family: "Montserrat-medium";
+  font-size: 90px;
+}
+/* ! */
+
+/* TODO: media */
+@media screen and (max-width: 768px) {
+  .navbar-brand > img {
+    width: 167px;
+    height: 54px;
+  }
+  .error_page h1 {
+    font-size: 140px;
+  }
+  .error_page h3 {
+    font-size: 50px;
+  }
+  .error_page p {
+    font-size: 20px;
+  }
+  .btn-advantages {
+    font-size: 22px;
+  }
+  .contact_wrapper {
+    text-align: center;
+  }
+  .contact_wrapper h2 {
+    font-size: 60px;
+  }
+  .about_us,
+  .wood_products {
+    padding: 20px;
+  }
+  .about_us h1,
+  .wood_products h1,
+  .the_wood h2,
+  .ourwork_wrapper h2,
+  .any_questions_wrapper h2,
+  .advantages_working h2,
+  .price_wrapper h2 {
+    font-size: 30px;
+  }
+  .about_us p span,
+  .about_us p,
+  .wood_products p {
+    font-size: 15px;
+  }
+}
